@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED484BE41BCFCC66009BDB71 /* HUDini.h in Headers */ = {isa = PBXBuildFile; fileRef = ED484BE31BCFCC66009BDB71 /* HUDini.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED484BEB1BCFCC66009BDB71 /* HUDini.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED484BE01BCFCC66009BDB71 /* HUDini.framework */; settings = {ASSET_TAGS = (); }; };
+		ED484BF01BCFCC66009BDB71 /* HUDiniTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED484BEF1BCFCC66009BDB71 /* HUDiniTests.swift */; };
+		ED484BFE1BCFCD1A009BDB71 /* HUDiniBaseSquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED484BFD1BCFCD1A009BDB71 /* HUDiniBaseSquareView.swift */; settings = {ASSET_TAGS = (); }; };
+		ED484C001BCFCD64009BDB71 /* HUDiniAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED484BFF1BCFCD64009BDB71 /* HUDiniAnimation.swift */; settings = {ASSET_TAGS = (); }; };
+		ED484C081BCFCE19009BDB71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED484C071BCFCE19009BDB71 /* AppDelegate.swift */; };
+		ED484C0A1BCFCE19009BDB71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED484C091BCFCE19009BDB71 /* ViewController.swift */; };
+		ED484C0D1BCFCE19009BDB71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED484C0B1BCFCE19009BDB71 /* Main.storyboard */; };
+		ED484C0F1BCFCE19009BDB71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED484C0E1BCFCE19009BDB71 /* Assets.xcassets */; };
+		ED484C121BCFCE19009BDB71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED484C101BCFCE19009BDB71 /* LaunchScreen.storyboard */; };
+		ED484C191BCFCE46009BDB71 /* HUDini.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED484BE01BCFCC66009BDB71 /* HUDini.framework */; };
+		ED484C1B1BCFD149009BDB71 /* HUDiniImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED484C1A1BCFD149009BDB71 /* HUDiniImageView.swift */; settings = {ASSET_TAGS = (); }; };
+		ED484C1D1BCFD7EA009BDB71 /* HUDini.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED484C1C1BCFD7EA009BDB71 /* HUDini.swift */; settings = {ASSET_TAGS = (); }; };
+		ED484C201BCFE61E009BDB71 /* HUDiniWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED484C1F1BCFE61E009BDB71 /* HUDiniWindow.swift */; settings = {ASSET_TAGS = (); }; };
+		ED484C221BCFE695009BDB71 /* HUDiniFrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED484C211BCFE695009BDB71 /* HUDiniFrameView.swift */; settings = {ASSET_TAGS = (); }; };
+		ED484C241BCFEC28009BDB71 /* HUDiniWindowRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED484C231BCFEC28009BDB71 /* HUDiniWindowRootViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		ED484C261BD02F6F009BDB71 /* HUDiniSuccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED484C251BD02F6F009BDB71 /* HUDiniSuccess.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED484BEC1BCFCC66009BDB71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED484BD71BCFCC66009BDB71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED484BDF1BCFCC66009BDB71;
+			remoteInfo = HUDini;
+		};
+		ED484C171BCFCE3B009BDB71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED484BD71BCFCC66009BDB71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED484BDF1BCFCC66009BDB71;
+			remoteInfo = HUDini;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED484BE01BCFCC66009BDB71 /* HUDini.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HUDini.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED484BE31BCFCC66009BDB71 /* HUDini.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HUDini.h; sourceTree = "<group>"; };
+		ED484BE51BCFCC66009BDB71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED484BEA1BCFCC66009BDB71 /* HUDiniTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HUDiniTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED484BEF1BCFCC66009BDB71 /* HUDiniTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUDiniTests.swift; sourceTree = "<group>"; };
+		ED484BF11BCFCC66009BDB71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED484BFD1BCFCD1A009BDB71 /* HUDiniBaseSquareView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HUDiniBaseSquareView.swift; path = Views/Base/HUDiniBaseSquareView.swift; sourceTree = "<group>"; };
+		ED484BFF1BCFCD64009BDB71 /* HUDiniAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HUDiniAnimation.swift; path = Protocols/HUDiniAnimation.swift; sourceTree = "<group>"; };
+		ED484C051BCFCE19009BDB71 /* HUDiniDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HUDiniDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED484C071BCFCE19009BDB71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED484C091BCFCE19009BDB71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED484C0C1BCFCE19009BDB71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED484C0E1BCFCE19009BDB71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED484C111BCFCE19009BDB71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED484C131BCFCE19009BDB71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED484C1A1BCFD149009BDB71 /* HUDiniImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HUDiniImageView.swift; path = Views/HUDiniImageView.swift; sourceTree = "<group>"; };
+		ED484C1C1BCFD7EA009BDB71 /* HUDini.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HUDini.swift; sourceTree = "<group>"; };
+		ED484C1F1BCFE61E009BDB71 /* HUDiniWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HUDiniWindow.swift; sourceTree = "<group>"; };
+		ED484C211BCFE695009BDB71 /* HUDiniFrameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HUDiniFrameView.swift; sourceTree = "<group>"; };
+		ED484C231BCFEC28009BDB71 /* HUDiniWindowRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HUDiniWindowRootViewController.swift; sourceTree = "<group>"; };
+		ED484C251BD02F6F009BDB71 /* HUDiniSuccess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HUDiniSuccess.swift; path = Views/HUDiniSuccess.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED484BDC1BCFCC66009BDB71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED484BE71BCFCC66009BDB71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED484BEB1BCFCC66009BDB71 /* HUDini.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED484C021BCFCE19009BDB71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED484C191BCFCE46009BDB71 /* HUDini.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED484BD61BCFCC66009BDB71 = {
+			isa = PBXGroup;
+			children = (
+				ED484BE21BCFCC66009BDB71 /* HUDini */,
+				ED484BEE1BCFCC66009BDB71 /* HUDiniTests */,
+				ED484C061BCFCE19009BDB71 /* HUDiniDemo */,
+				ED484BE11BCFCC66009BDB71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED484BE11BCFCC66009BDB71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED484BE01BCFCC66009BDB71 /* HUDini.framework */,
+				ED484BEA1BCFCC66009BDB71 /* HUDiniTests.xctest */,
+				ED484C051BCFCE19009BDB71 /* HUDiniDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED484BE21BCFCC66009BDB71 /* HUDini */ = {
+			isa = PBXGroup;
+			children = (
+				ED484BE31BCFCC66009BDB71 /* HUDini.h */,
+				ED484C1C1BCFD7EA009BDB71 /* HUDini.swift */,
+				ED484BE51BCFCC66009BDB71 /* Info.plist */,
+				ED484BFA1BCFCC8B009BDB71 /* Views */,
+				ED484C1F1BCFE61E009BDB71 /* HUDiniWindow.swift */,
+				ED484C231BCFEC28009BDB71 /* HUDiniWindowRootViewController.swift */,
+				ED484C211BCFE695009BDB71 /* HUDiniFrameView.swift */,
+			);
+			path = HUDini;
+			sourceTree = "<group>";
+		};
+		ED484BEE1BCFCC66009BDB71 /* HUDiniTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED484BEF1BCFCC66009BDB71 /* HUDiniTests.swift */,
+				ED484BF11BCFCC66009BDB71 /* Info.plist */,
+			);
+			path = HUDiniTests;
+			sourceTree = "<group>";
+		};
+		ED484BFA1BCFCC8B009BDB71 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ED484BFC1BCFCC9B009BDB71 /* Base */,
+				ED484BFB1BCFCC95009BDB71 /* Protocols */,
+				ED484C1A1BCFD149009BDB71 /* HUDiniImageView.swift */,
+				ED484C251BD02F6F009BDB71 /* HUDiniSuccess.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		ED484BFB1BCFCC95009BDB71 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				ED484BFF1BCFCD64009BDB71 /* HUDiniAnimation.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		ED484BFC1BCFCC9B009BDB71 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				ED484BFD1BCFCD1A009BDB71 /* HUDiniBaseSquareView.swift */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		ED484C061BCFCE19009BDB71 /* HUDiniDemo */ = {
+			isa = PBXGroup;
+			children = (
+				ED484C071BCFCE19009BDB71 /* AppDelegate.swift */,
+				ED484C091BCFCE19009BDB71 /* ViewController.swift */,
+				ED484C0B1BCFCE19009BDB71 /* Main.storyboard */,
+				ED484C0E1BCFCE19009BDB71 /* Assets.xcassets */,
+				ED484C101BCFCE19009BDB71 /* LaunchScreen.storyboard */,
+				ED484C131BCFCE19009BDB71 /* Info.plist */,
+			);
+			path = HUDiniDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		ED484BDD1BCFCC66009BDB71 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED484BE41BCFCC66009BDB71 /* HUDini.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		ED484BDF1BCFCC66009BDB71 /* HUDini */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED484BF41BCFCC66009BDB71 /* Build configuration list for PBXNativeTarget "HUDini" */;
+			buildPhases = (
+				ED484BDB1BCFCC66009BDB71 /* Sources */,
+				ED484BDC1BCFCC66009BDB71 /* Frameworks */,
+				ED484BDD1BCFCC66009BDB71 /* Headers */,
+				ED484BDE1BCFCC66009BDB71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HUDini;
+			productName = HUDini;
+			productReference = ED484BE01BCFCC66009BDB71 /* HUDini.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ED484BE91BCFCC66009BDB71 /* HUDiniTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED484BF71BCFCC66009BDB71 /* Build configuration list for PBXNativeTarget "HUDiniTests" */;
+			buildPhases = (
+				ED484BE61BCFCC66009BDB71 /* Sources */,
+				ED484BE71BCFCC66009BDB71 /* Frameworks */,
+				ED484BE81BCFCC66009BDB71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED484BED1BCFCC66009BDB71 /* PBXTargetDependency */,
+			);
+			name = HUDiniTests;
+			productName = HUDiniTests;
+			productReference = ED484BEA1BCFCC66009BDB71 /* HUDiniTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED484C041BCFCE19009BDB71 /* HUDiniDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED484C141BCFCE19009BDB71 /* Build configuration list for PBXNativeTarget "HUDiniDemo" */;
+			buildPhases = (
+				ED484C011BCFCE19009BDB71 /* Sources */,
+				ED484C021BCFCE19009BDB71 /* Frameworks */,
+				ED484C031BCFCE19009BDB71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED484C181BCFCE3B009BDB71 /* PBXTargetDependency */,
+			);
+			name = HUDiniDemo;
+			productName = HUDiniDemo;
+			productReference = ED484C051BCFCE19009BDB71 /* HUDiniDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED484BD71BCFCC66009BDB71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Ferdinand Urban";
+				TargetAttributes = {
+					ED484BDF1BCFCC66009BDB71 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					ED484BE91BCFCC66009BDB71 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					ED484C041BCFCE19009BDB71 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = ED484BDA1BCFCC66009BDB71 /* Build configuration list for PBXProject "HUDini" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED484BD61BCFCC66009BDB71;
+			productRefGroup = ED484BE11BCFCC66009BDB71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED484BDF1BCFCC66009BDB71 /* HUDini */,
+				ED484BE91BCFCC66009BDB71 /* HUDiniTests */,
+				ED484C041BCFCE19009BDB71 /* HUDiniDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED484BDE1BCFCC66009BDB71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED484BE81BCFCC66009BDB71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED484C031BCFCE19009BDB71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED484C121BCFCE19009BDB71 /* LaunchScreen.storyboard in Resources */,
+				ED484C0F1BCFCE19009BDB71 /* Assets.xcassets in Resources */,
+				ED484C0D1BCFCE19009BDB71 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED484BDB1BCFCC66009BDB71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED484C261BD02F6F009BDB71 /* HUDiniSuccess.swift in Sources */,
+				ED484C1D1BCFD7EA009BDB71 /* HUDini.swift in Sources */,
+				ED484C201BCFE61E009BDB71 /* HUDiniWindow.swift in Sources */,
+				ED484BFE1BCFCD1A009BDB71 /* HUDiniBaseSquareView.swift in Sources */,
+				ED484C241BCFEC28009BDB71 /* HUDiniWindowRootViewController.swift in Sources */,
+				ED484C001BCFCD64009BDB71 /* HUDiniAnimation.swift in Sources */,
+				ED484C1B1BCFD149009BDB71 /* HUDiniImageView.swift in Sources */,
+				ED484C221BCFE695009BDB71 /* HUDiniFrameView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED484BE61BCFCC66009BDB71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED484BF01BCFCC66009BDB71 /* HUDiniTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED484C011BCFCE19009BDB71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED484C0A1BCFCE19009BDB71 /* ViewController.swift in Sources */,
+				ED484C081BCFCE19009BDB71 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED484BED1BCFCC66009BDB71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED484BDF1BCFCC66009BDB71 /* HUDini */;
+			targetProxy = ED484BEC1BCFCC66009BDB71 /* PBXContainerItemProxy */;
+		};
+		ED484C181BCFCE3B009BDB71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED484BDF1BCFCC66009BDB71 /* HUDini */;
+			targetProxy = ED484C171BCFCE3B009BDB71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED484C0B1BCFCE19009BDB71 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED484C0C1BCFCE19009BDB71 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED484C101BCFCE19009BDB71 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED484C111BCFCE19009BDB71 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED484BF21BCFCC66009BDB71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED484BF31BCFCC66009BDB71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ED484BF51BCFCC66009BDB71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = HUDini/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ferdinandurban.HUDini;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED484BF61BCFCC66009BDB71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = HUDini/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ferdinandurban.HUDini;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		ED484BF81BCFCC66009BDB71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HUDiniTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ferdinandurban.HUDiniTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ED484BF91BCFCC66009BDB71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HUDiniTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ferdinandurban.HUDiniTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ED484C151BCFCE19009BDB71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HUDiniDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ferdinandurban.HUDiniDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ED484C161BCFCE19009BDB71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HUDiniDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ferdinandurban.HUDiniDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED484BDA1BCFCC66009BDB71 /* Build configuration list for PBXProject "HUDini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED484BF21BCFCC66009BDB71 /* Debug */,
+				ED484BF31BCFCC66009BDB71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED484BF41BCFCC66009BDB71 /* Build configuration list for PBXNativeTarget "HUDini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED484BF51BCFCC66009BDB71 /* Debug */,
+				ED484BF61BCFCC66009BDB71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED484BF71BCFCC66009BDB71 /* Build configuration list for PBXNativeTarget "HUDiniTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED484BF81BCFCC66009BDB71 /* Debug */,
+				ED484BF91BCFCC66009BDB71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED484C141BCFCE19009BDB71 /* Build configuration list for PBXNativeTarget "HUDiniDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED484C151BCFCE19009BDB71 /* Debug */,
+				ED484C161BCFCE19009BDB71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED484BD71BCFCC66009BDB71 /* Project object */;
+}

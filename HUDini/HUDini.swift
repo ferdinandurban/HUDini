@@ -53,7 +53,7 @@ public class HUDini: NSObject {
     public override init() {
         super.init()
         
-        NSNotificationCenter.defaultCenter().addObserver(self, selector: "willEndterForeground", name: UIApplicationWillEnterForegroundNotification, object: nil)
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "willEnterForeground", name: UIApplicationWillEnterForegroundNotification, object: nil)
         
         userInteractionOnUnderlyingViewsEnabled = false
     }

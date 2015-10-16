@@ -22,7 +22,7 @@ $ cd HUDini
 $ open "HUDini.xcdeproj"
 ```
 
-4) Compile and run the app in your simulator
+2) Compile and run the app in your simulator
 
 # Requirements
 

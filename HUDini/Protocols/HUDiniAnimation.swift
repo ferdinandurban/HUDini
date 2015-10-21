@@ -9,6 +9,6 @@
 import Foundation
 
 @objc protocol HUDiniAnimation {
-    func startAnimation()
+    optional func startAnimation()
     optional func stopAnimation()
 }

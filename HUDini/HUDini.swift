@@ -45,7 +45,7 @@ public class HUDini: NSObject {
         }
         set {
             window.frameView.content = newValue
-            animationStart()
+            startAnimation()
         }
     }
     
@@ -64,7 +64,7 @@ public class HUDini: NSObject {
             window.showBackground(animated: true)
         }
         
-        animationStart()
+        startAnimation()
     }
 
     // MARK: Hide methods
@@ -85,14 +85,18 @@ public class HUDini: NSObject {
     }
     
     // MARK: Animation
-    internal func animationStart() {
-        let animatingContentView = contentView as! HUDiniAnimation
-        animatingContentView.startAnimation()
+    internal func startAnimation() {
+        if contentView.conformsToProtocol(HUDiniAnimation) {
+            let animatingContentView = contentView as! HUDiniAnimation
+                animatingContentView.startAnimation!()
+        }
     }
     
     internal func animationStop() {
-        let animatingContentView = contentView as! HUDiniAnimation
-        animatingContentView.stopAnimation!()
+        if contentView.conformsToProtocol(HUDiniAnimation) {
+            let animatingContentView = contentView as! HUDiniAnimation
+                animatingContentView.stopAnimation!()
+        }
     }
 
     
